@@ -1,14 +1,17 @@
 body {
-	background-color: black;
+	background-color: #121212;
   font-family: 'Source Sans Pro', sans-serif;
   color: white;
   font-size: 110%;
+	margin:0
 }
+
 
 h1 {
   font-size: 250%;
   font-style: italic;
 }
+
 
 h2 {
   font-size: 200%;
@@ -42,7 +45,7 @@ li {
   z-index: 1; /* Stay on top */
   top: 0;
   left: 0;
-  background-color: #008ED0; /* Black*/
+  background-color: #018acf; /* Black*/
   overflow-x: hidden; /* Disable horizontal scroll */
   padding-top: 60px; /* Place content 60px from the top */
   transition: 0.2s; /* 0.5 second transition effect to slide in the sidebar */
@@ -53,14 +56,15 @@ li {
   padding: 8px 8px 8px 32px;
   text-decoration: none;
   font-size: 25px;
-  color: #ffffff;
+  color: white;
   display: block;
   transition: 0.3s;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidebar a:hover {
-  text-shadow: 2px 2px #D9181D;
+  color: #121212;
+	text-shadow:2px 2px #99d0eb
 }
 
 /* Position and style the close button (top right corner) */
@@ -85,4 +89,8 @@ li {
 
 .menu-image:hover {
   filter: brightness(85%);
+}
+
+.menu-image	{
+	shadow: 2px 2px black;
 }
